@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Café Paris">
+  <rect width="64" height="64" rx="16" fill="#2b2118"/>
+  <path d="M18 24h20v14a10 10 0 0 1-10 10h-0a10 10 0 0 1-10-10V24Z" fill="none" stroke="#f1e5d2" stroke-width="4"/>
+  <path d="M38 27h4a7 7 0 0 1 0 14h-4" fill="none" stroke="#f1e5d2" stroke-width="4" stroke-linecap="round"/>
+  <path d="M16 52h28" stroke="#c47a4a" stroke-width="4" stroke-linecap="round"/>
+</svg>

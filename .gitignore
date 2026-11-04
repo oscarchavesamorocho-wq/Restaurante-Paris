@@ -1,0 +1,33 @@
+# Dependencias y artefactos regenerables
+node_modules/
+npm-debug.log*
+*.log
+
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+.demo-credentials.txt
+*.pem
+*.key
+
+# Base de datos y estado local
+data/
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.cursor/
+*.swp
+
+# Artefactos temporales
+coverage/
+tmp/
+dist/
+sistema-reservas-restaurante.zip

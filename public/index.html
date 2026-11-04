@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#f6f1e9" />
+    <meta name="description" content="Sistema de reservas, mesas, pedidos, cocina y despachos de Café Paris." />
+    <title>Café Paris · Reservas</title>
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/css/tokens.css" />
+    <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/layout.css" />
+    <link rel="stylesheet" href="/css/components.css" />
+    <link rel="stylesheet" href="/css/views.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Saltar al contenido principal</a>
+    <div id="app" class="app-root">
+      <div class="boot-screen" role="status" aria-live="polite">
+        <div class="boot-mark" aria-hidden="true">CP</div>
+        <p class="boot-name">Café Paris</p>
+        <p class="boot-copy">Preparando el servicio…</p>
+      </div>
+    </div>
+    <div id="toast-region" class="toast-region" role="status" aria-live="polite"></div>
+    <noscript>
+      <div class="noscript-card">
+        <h1>Café Paris</h1>
+        <p>Este sistema necesita JavaScript para funcionar. Actívalo y recarga la página.</p>
+      </div>
+    </noscript>
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>
